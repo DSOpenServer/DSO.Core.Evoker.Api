@@ -4,13 +4,13 @@
 
 ![.NET](https://img.shields.io/badge/.NET-6.0%20%7C%208.0-512BD4) ![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-controllers-blue)
 
-`DSO.Core.Evoker.Api`, [DSO.Core.Evoker](../DSO.Core.Evoker/README.md)'ın `EvokerCatalog`'una kaydettiğiniz **her
+`DSO.Core.Evoker.Api`, [DSO.Core.Evoker](https://github.com/DSOpenServer/DSO.Core.Evoker/blob/main/README.md)'ın `EvokerCatalog`'una kaydettiğiniz **her
 hedefi** web'e açar:
 
 - kendi servis sınıflarınızı,
 - hazır nesnelerinizi,
 - static yardımcı sınıflarınızı,
-- [plugin'lerinizi](../DSO.Core.Evoker.Plugins/README.md).
+- [plugin'lerinizi](https://github.com/DSOpenServer/DSO.Core.Evoker.Plugins/blob/main/README.md).
 
 Hepsi aynı JSON komut biçimiyle, aynı cevap zarfıyla ve aynı hata kodlarıyla çalışır. Tanım ucu her metot için
 **doldurulmaya hazır komut şablonları** verir; bir yönetim ekranının ya da otomasyon aracının ihtiyaç duyduğu her şey
@@ -137,7 +137,7 @@ Content-Type: application/json
 ```
 
 Tüm kurallar (overload puanlama, `params`, `argTypes`, nesne ömürleri) için:
-[DSO.Core.Evoker → Commands](../DSO.Core.Evoker/README.md#commands--json-komutlar).
+[DSO.Core.Evoker → Commands](https://github.com/DSOpenServer/DSO.Core.Evoker/blob/main/README.md#commands--json-komutlar).
 
 ---
 
@@ -303,4 +303,4 @@ builder.Services.AddControllers().AddEvokerApi(o =>
   - izin listesi boşken 403, doluyken `Math.Max(3,7) = 7`.
 - **`CommandTests` (C1–C13):** komut motorunun kendisi, `DSO.Core.Evoker.TestRunner` içinde.
 
-Plugin yönetim uçları için: [DSO.Core.Evoker.Plugins.Api](../DSO.Core.Evoker.Plugins.Api/README.md).
+Plugin yönetim uçları için: [DSO.Core.Evoker.Plugins.Api](https://github.com/DSOpenServer/DSO.Core.Evoker.Plugins.Api/blob/main/README.md).
